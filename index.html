@@ -12,91 +12,38 @@
 </head>
 
 <body>
-    <div class="container">
+
+    <div class="card-action">
         <div class="row">
-            <div class="col s12 m12 l12">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title">Hand and Foot</span>
-                        <div class="row">
-                            <form class="col s12">
-                                <div class="row">
-                                    <div class="input-field col s6">
-                                        <input placeholder="Name" id="first_name" type="text" class="validate">
-                                    </div>
-                                </div>
-                                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                                </button>
-                        </div>
-                        <div class="card-action">
-                            <div class="row">
-                                <div class="col s8 m8 l8">Go Out Bonus
-                                </div>
-                                <div class="col s2 m2 l2">100</div>
-                                <div class="col s2 m2 l2">col 3</div>
-                            </div>
-                            <div class="row">
-                                <div class="col s8 m8 l8">Red 3
-                                </div>
-                                <div class="col s2 m2 l2">100</div>
-                                <div class="col s2 m2 l2">col 3</div>
-                            </div>
-                            <div class="row">
-                                <div class="col s8 m8 l8">col 1
-                                </div>
-                                <div class="col s2 m2 l2">col 2</div>
-                                <div class="col s2 m2 l2">col 3</div>
-                            </div>
-                            <div class="row">
-                                <div class="col s8 m8 l8">col 1
-                                </div>
-                                <div class="col s2 m2 l2">col 2</div>
-                                <div class="col s2 m2 l2">col 3</div>
-                            </div>
-                            <div class="row">
-                                <div class="col s8 m8 l8">col 1
-                                </div>
-                                <div class="col s2 m2 l2">col 2</div>
-                                <div class="col s2 m2 l2">col 3</div>
-                            </div>
-                            <div class="row">
-                                <div class="col s8 m8 l8">col 1
-                                </div>
-                                <div class="col s2 m2 l2">col 2</div>
-                                <div class="col s2 m2 l2">col 3</div>
-                            </div>
-                            <div class="row">
-                                <div class="col s8 m8 l8">col 1
-                                </div>
-                                <div class="col s2 m2 l2">col 2</div>
-                                <div class="col s2 m2 l2">col 3</div>
-                            </div>
-                            <div class="row">
-                                <div class="col s8 m8 l8">col 1
-                                </div>
-                                <div class="col s2 m2 l2">col 2</div>
-                                <div class="col s2 m2 l2">col 3</div>
-                            </div>
-                            <div class="row">
-                                <div class="col s8 m8 l8">col 1
-                                </div>
-                                <div class="col s2 m2 l2">col 2</div>
-                                <div class="col s2 m2 l2">col 3</div>
-                            </div>
-                            <div class="row">
-                                <div class="col s8 m8 l8">col 1
-                                </div>
-                                <div class="col s2 m2 l2">col 2</div>
-                                <div class="col s2 m2 l2">col 3</div>
-                            </div>
-                        </div>
-                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                        </button>
-                    </div>
-                </div>
-                <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-                <script src="app.js"></script>
+            <div class="heading col s8 m8 l8">CARDS AND MELDS
+            </div>
+            <div class="heading col s2 m2 l2">Number In Hand</div>
+            <div class="heading col s2 m2 l2">Points Earned</div>
+        </div>
+        <div class="row">
+            <div class="labels col s8 m8 l8">Go Out Bonus</div>
+            <div class="points col s2 m2 l2 form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Player went out</label>
+              </div>
+             
+
+            <div class="points col s2 m2 l2">
+                <input placeholder="100" id="going-out" type="number" class="validate">
+            </div>
+        </div>
+        <div class="row">
+            <div class="labels col s8 m8 l8">Red 3s
+            </div>
+            <div class="owned col s2 m2 l2"> <input placeholder="enter number" type="number" class="validate"></div>
+            <div class="points-earned col s2 m2 l2"> <input placeholder="100" id="red-3" type="number" class="validate"></div>
+        </div>
+
+   
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
