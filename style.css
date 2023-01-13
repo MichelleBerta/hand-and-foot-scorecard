@@ -1,0 +1,199 @@
+body {
+  font-size: 120%;
+  font-family: "Varela Round", sans-serif;
+  background-color: #fd0303;
+  color: white;
+}
+
+/* NAV */
+
+.icon {
+  color: #fd0303;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 1026px) {
+  .icon {
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 1026px) {
+  .aces,
+  .headerBtn {
+    display: none;
+  }
+}
+
+.icon:hover {
+  background-color: #fd0303;
+  color: white;
+  transition: 0.4s all linear;
+}
+
+.navbar-brand {
+  background-color: white;
+  color: #fd0303;
+  font-size: 175%;
+}
+
+.links,
+.nav,
+.flex-column {
+  background-color: white;
+}
+
+.headerBtn,
+.mobileBtn {
+  background-color: #fd0303;
+  color: white;
+  outline: none;
+  border: none;
+  max-width: fit-content;
+}
+
+.headerBtn,
+.mobileBtn:focus {
+  box-shadow: none;
+}
+
+.decoImages {
+  width: 105%;
+}
+
+#spades {
+  transform: rotate(20deg);
+}
+
+#diamonds {
+  transform: rotate(-20deg);
+}
+
+.aces {
+  vertical-align: bottom;
+  margin-bottom: -2%;
+}
+
+
+/* MODAL */
+.modal-title {
+  color: black;
+}
+
+.modal-body {
+  background-color: #fd0303;
+}
+
+.modal-footer {
+  background-color: white;
+}
+
+.card-body {
+  color: black;
+}
+
+button,
+input {
+  font-size: 100%;
+  font-family: Arial;
+}
+
+table {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.container {
+  margin: 30px auto;
+  max-width: 95%;
+  text-align: center;
+}
+
+.total {
+  font-size: 175%;
+}
+
+.form {
+  margin-top: 25px;
+}
+
+#name {
+  margin: 1%;
+}
+
+.btn {
+  margin: 1%;
+}
+
+.buttons {
+  background-color: white;
+  color: #fd0303;
+}
+
+.buttons:hover {
+  color: white;
+  background-color: black;
+}
+
+.buttons:focus {
+  color: white;
+  background-color: black;
+}
+
+.btn-primary {
+  border-color: #fd0303;
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.btn-primary:focus {
+  color: white;
+  background-color: black;
+  border-color: black;
+  box-shadow: none;
+}
+
+.modalBtn {
+  background-color: #fd0303;
+  color: white;
+}
+
+.modalBtn:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: black;
+  color: white;
+}
+
+.accordion-button:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+li {
+  display: block;
+  text-align: left;
+  padding: 16px;
+}
+
+#column3 {
+  width: 26%;
+}
