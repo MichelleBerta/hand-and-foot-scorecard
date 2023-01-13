@@ -19,7 +19,8 @@ Learn game requirements, set up, how to play and score Hand and Foot with the Ga
 
 
 ## Application
-Click this link to view the application.....(coming soon)
+Click this link to view the application
+https://michelleberta.github.io/hand-and-foot-scorecard/
 
 ## Technology
 
