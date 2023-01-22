@@ -57,6 +57,11 @@ body {
   box-shadow: none;
 }
 
+#newGame:hover {
+  background-color: #fd0303;
+  color: black;
+}
+
 .decoImages {
   width: 105%;
 }
@@ -73,7 +78,6 @@ body {
   vertical-align: bottom;
   margin-bottom: -2%;
 }
-
 
 /* MODAL */
 .modal-title {
