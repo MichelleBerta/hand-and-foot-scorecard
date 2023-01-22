@@ -200,7 +200,19 @@ li {
   text-align: left;
   padding: 16px;
 }
-
+/* 
 #column3 {
   width: 26%;
+} */
+
+input[type="number"] {
+  width: 90%;
+}
+
+input[type="text"] {
+  width: 90%;
+}
+
+td {
+  width: 30%;
 }
