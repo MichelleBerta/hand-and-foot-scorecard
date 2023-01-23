@@ -281,7 +281,7 @@
               <tr>
                 <td class="column1">Red 3s</td>
                 <td class="column2">
-                  <input type="number" name="qty" id="red3Number" maxlength="2" oninput="red3MultiplyBy(); moveCursor(this, 'wildNumber')" ; placeholder="100 points each" />
+                  <input type="number" name="qty" id="red3Number" maxlength="2" oninput="red3MultiplyBy(); moveCursor(this, 'wildNumber')" ; placeholder="100 points" />
                 </td>
                 <td class="column3"><span class="score" id="red3Score"></span></td>
               </tr>
@@ -289,7 +289,7 @@
               <tr>
                 <td class="column1">Wild Melds</td>
                 <td class="column2">
-                  <input type="number" name="qty" id="wildNumber" maxlength="2" oninput="wildMultiplyBy(); moveCursor(this, 'cleanNumber')" ; placeholder="1500 points each" />
+                  <input type="number" name="qty" id="wildNumber" maxlength="2" oninput="wildMultiplyBy(); moveCursor(this, 'cleanNumber')" ; placeholder="1500 points" />
                 </td>
                 <td class="column3"><span class="score" id="wildScore"></span> </td>
               </tr>
@@ -297,7 +297,7 @@
               <tr>
                 <td class="column1">Clean Melds</td>
                 <td class="column2">
-                  <input type="number" name="qty" id="cleanNumber" maxlength="2" oninput="cleanMultiplyBy(); moveCursor(this, 'dirtyNumber')" ; placeholder="500 points each" />
+                  <input type="number" name="qty" id="cleanNumber" maxlength="2" oninput="cleanMultiplyBy(); moveCursor(this, 'dirtyNumber')" ; placeholder="500 points" />
                 </td>
                 <td class="column3"><span class="score" id="cleanScore"></span> </td>
               </tr>
@@ -305,7 +305,7 @@
               <tr>
                 <td>Dirty Melds</td>
                 <td class="column2">
-                  <input type="number" name="qty" id="dirtyNumber" maxlength="2" oninput="dirtyMultiplyBy(); moveCursor(this, 'jokersNumber')" placeholder="300 points each" />
+                  <input type="number" name="qty" id="dirtyNumber" maxlength="2" oninput="dirtyMultiplyBy(); moveCursor(this, 'jokersNumber')" placeholder="300 points" />
                 </td>
                 <td class="column3"><span class="score" id="dirtyScore"></span> </td>
               </tr>
@@ -313,7 +313,7 @@
               <tr>
                 <td class="column1">Jokers</td>
                 <td class="column2">
-                  <input type="number" name="qty" id="jokersNumber" maxlength="2" oninput="jokersMultiplyBy(); moveCursor(this, 'acesNumber')" placeholder="50 points each" />
+                  <input type="number" name="qty" id="jokersNumber" maxlength="2" oninput="jokersMultiplyBy(); moveCursor(this, 'acesNumber')" placeholder="50 points" />
                 </td>
                 <td class="column3"><span class="score" id="jokersScore"></span> </td>
               </tr>
@@ -321,7 +321,7 @@
               <tr>
                 <td class="column1">Twos and Aces</td>
                 <td class="column2">
-                  <input type="number" name="qty" id="acesNumber" maxlength="2" oninput="acesMultiplyBy(); moveCursor(this, 'kingNumber')" placeholder="20 points each" />
+                  <input type="number" name="qty" id="acesNumber" maxlength="2" oninput="acesMultiplyBy(); moveCursor(this, 'kingNumber')" placeholder="20 points" />
                 </td>
                 <td class="column3"><span class="score" id="acesScore"></span> </td>
               </tr>
@@ -329,7 +329,7 @@
               <tr>
                 <td class="column1">Eight - King</td>
                 <td class="column2">
-                  <input type="number" name="qty" id="kingNumber" maxlength="2" oninput="kingMultiplyBy(); moveCursor(this, 'sevenNumber')" placeholder="10 points each" />
+                  <input type="number" name="qty" id="kingNumber" maxlength="2" oninput="kingMultiplyBy(); moveCursor(this, 'sevenNumber')" placeholder="10 points" />
                 </td>
                 <td class="column3"><span class="score" id="kingScore"></span> </td>
               </tr>
@@ -337,7 +337,7 @@
               <tr>
                 <td class="column1">Four - Seven</td>
                 <td class="column2">
-                  <input type="number" name="qty" id="sevenNumber" maxlength="2" oninput="sevenMultiplyBy(); moveCursor(this, 'subtractNumber')" placeholder="5 points each" />
+                  <input type="number" name="qty" id="sevenNumber" maxlength="2" oninput="sevenMultiplyBy(); moveCursor(this, 'subtractNumber')" placeholder="5 points" />
                 </td>
                 <td class="column3"><span class="score" id="sevenScore"></span> </td>
               </tr>
@@ -345,14 +345,14 @@
               <tr>
                 <td class="column1">Cards to Deduct</td>
                 <td class="column2">
-                  <input type="number" name="qty" id="subtractNumber" maxlength="3" oninput="subtractBy(); moveCursor(this, 'submitScore')" placeholder="Subtract Total" />
+                  <input type="number" name="qty" id="subtractNumber" maxlength="3" oninput="subtractBy(); moveCursor(this, 'submitScore')" placeholder="Subtract" />
                 </td>
                 <td class="column3"><span class="score" id="subtractScore"></span> </td>
               </tr>
               <tr>
-                <td class="column1"></td>
-                <td class="column2"><input type="text" id="name" required placeholder="Player's Name" /></td>
-                <td>Total: <span id="totalScore"></span></td>
+                <td class="column1">Total</td>
+                <td class="column2"><input type="text" id="name" required placeholder="Name" /></td>
+                <td><span id="totalScore"></span></td>
                 <td class="column3"></td>
               </tr>
             </tbody>
